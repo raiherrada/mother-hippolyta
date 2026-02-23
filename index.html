@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+        <!-- CDN icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ultra:ital,wght@0,400;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner">
+            <img class="banner-image" src="/images/arepaheader.webp" alt="an image of two arepas being hold by two different people">
+            <div class="text-container">
+                <h1 class="banner-title">Mother Hippolyta</h1>
+                <p class="banner-description">Venezuelan food for everyone</p>
+            </div>
+        </div>
+        <div class="container" id="container"></div>
+        <div class="modal" id="modal">
+            <div class="modal-inner" id="modal-inner">
+                <div class="modal-inner-header">
+                    <button class="modal-close-btn" id="modal-close-btn">X</button>
+                    <h3 class="modal-title">Enter Card Details</h3>
+                </div>
+                <form id="card-details-form">
+                    <input type="text" name="fullName" placeholder="Enter your full name" required />
+                    <input type="email" name="email" placeholder="Enter your email" required />
+                    <input type="text" name="card" placeholder="Enter your card details" required />
+                    <input type="password" name="cvv" placeholder="Enter your CVV" required />
+                    <button type="submit" class="pay-btn" id="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
