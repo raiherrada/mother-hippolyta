@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', 'Courier New', Courier, monospace;
+    justify-content: center;
 }
 
 /* App wrapper container */
@@ -34,6 +35,7 @@ body {
 
 .container{
     margin: auto;
+    justify-content: center;
     width: 600px;
     height: 1000px;
     background: #F2EBEB;
