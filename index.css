@@ -20,6 +20,10 @@ body {
     padding: 20px;
 }
 
+#cart-section:empty {
+    border-top: none;
+}
+
 .shopping-cart {
     display: flex;
     justify-content: space-between;
@@ -31,7 +35,7 @@ body {
 .container{
     margin: auto;
     width: 600px;
-    height: 1161px;
+    height: 1000px;
     background: #F2EBEB;
 }
 
